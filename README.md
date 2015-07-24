@@ -49,15 +49,10 @@ Now that you have added your solution locally, you need to push it to the main r
 ```
 git add ./*
 git commit -a -m 'message explaining what you added'
-git push
+git push origin master
 ```
 
 
 ### Contribute to Existing Solutions
 
 While anyone has the ability to modify existing files, it is best if you use GitHub's `issues` to discuss the changes with the original author before making any modifications. To modify the files, you only need to clone the repository, make changes, and then push your commits as above. 
-
-
-
-
-
