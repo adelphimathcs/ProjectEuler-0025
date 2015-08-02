@@ -20,9 +20,7 @@ class Fibonacci
   #Example: big_fib(3) will return '144' and '12' as 144 is the 12th fib number
   def big_fib(len=1000)
     index = 0
-    while get_fib(index).to_s.size != len do
-      index+=1
-    end
+    index+=1  until get_fib(index).to_s.size >= len 
     return get_fib(index),index
   end
 
